@@ -11,8 +11,8 @@ class asennus{
 		content => "Hello world!\n",
 	}
 
-	file{"/home/xubuntu/public_html/index.html":
-		content => template("asennus/index.html")
+	file{"/home/xubuntu/public_html/index.php":
+		content => template("asennus/index.php")
 
 	}
 

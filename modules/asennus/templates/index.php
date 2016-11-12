@@ -8,6 +8,10 @@
 	<h1>Mika's Test Page</h1>
 	<p>Let's test UTF-8 with "päivää"</p>
 	<p>See you at <a href="https://selvinen.wordpress.com/">Selvinen</a></p>
-	<?php echo '<p>Hello World</p>'; ?> 
+
+<?php
+echo "Hello World!";
+?>
+
 </body>
 </html>
